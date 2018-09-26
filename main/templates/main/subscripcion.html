@@ -1,0 +1,15 @@
+{%extends 'base.html'%}
+
+{%load static%}
+
+{%block content%}
+
+<section class="container">
+	<form action="." method="post">
+	{%csrf_token%}
+	{{form.as_p}}
+	<input id="boton" type="submit" value="suscribirme"> </input>
+	</form>
+</section>
+
+{%endblock content%}

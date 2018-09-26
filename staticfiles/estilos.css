@@ -1,0 +1,35 @@
+
+html, body, nav{
+    margin: 0;
+}
+
+.nav{
+    width: 100;
+    background: lightblue;
+    height: 3rem;
+}
+
+.nav span{
+    position: relative;
+    top:30%;
+    margin: 0 0 0 3rem;
+}
+
+#boton {
+    width: 6rem;
+    background: black;
+    color: white;
+    border: 1px solid green;
+}
+
+.container {
+    width: 80%;
+    margin:0 auto;
+    padding-top: 4rem;
+}
+
+
+.rellenito {
+    background: lightgreen;
+}
+
